@@ -145,16 +145,19 @@ a:hover {
   background-color: #002a5b;
   background-blend-mode: multiply;
   background-image: url('images/AESGlobal.png');
+  background-repeat: no-repeat;
 }
 
 .slide-2 {
   background-color: #002a5b;
   background-blend-mode: multiply;
   background-image: url('images/Modular.png');
+  background-repeat: no-repeat;
 }
 
 .slide-3, .slide-4, .slide-5 {
   background-color: #002a5b;
   background-blend-mode: multiply;
   background-image: url('images/Simplicity.png');
+  background-repeat: no-repeat;
 }
