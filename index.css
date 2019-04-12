@@ -143,3 +143,15 @@ a:hover {
     		-webkit-animation-delay: 1.2s;
 		animation-delay: 1.2s;
 }
+
+.slide-1{
+    background-image:url('images/AESGlobal.png');
+}
+
+.slide-2{
+    background-image:url('images/Modular.png');
+}
+
+.slide-3, .slide-4, .slide-5{
+  background-image:url('images/Simplicity.png');
+}
