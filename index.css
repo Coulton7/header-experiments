@@ -140,27 +140,3 @@ a:hover {
   -webkit-animation-delay: 1.2s;
   animation-delay: 1.2s;
 }
-
-.slide-1 {
-  background-color: #002a5b;
-  background-blend-mode: multiply;
-  background-image: url('images/AESGlobal.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.slide-2 {
-  background-color: #002a5b;
-  background-blend-mode: multiply;
-  background-image: url('images/Modular.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.slide-3, .slide-4, .slide-5 {
-  background-color: #002a5b;
-  background-blend-mode: multiply;
-  background-image: url('images/Simplicity.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-}
