@@ -131,6 +131,26 @@ a:hover {
   animation-name: fadeInRight;
 }
 
+.slick-current .home-tab-image{
+  -webkit-animation-delay: .4s;
+  animation-delay: .4s;
+  -webkit-animation-duration: .6s;
+  animation-duration: .6s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: FadeIn;
+  animation: FadeIn;
+}
+
+.home-tab-image{
+  -webkit-animation-duration: .6s;
+  animation-duration: .6s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
+}
+
 .slick-current .slide-description {
   -webkit-animation-delay: .8s;
   animation-delay: .8s;
