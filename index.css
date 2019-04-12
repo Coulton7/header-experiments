@@ -103,6 +103,11 @@ a:hover {
   text-decoration: none;
 }
 
+.slick-track {
+  display: flex;
+  align-items: center;
+}
+
 .slick-initialized .slick-slide {
   /* padding between each item */
   padding: 0 35px;
