@@ -140,3 +140,33 @@ a:hover {
   -webkit-animation-delay: 1.2s;
   animation-delay: 1.2s;
 }
+
+.slide-1{
+  background-image: url('images/slides_01.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slide-2{
+  background-image: url('images/slides_02.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slide-3{
+  background-image: url('images/slides_03.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slide-4{
+  background-image: url('images/slides_04.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slide-5{
+  background-image: url('images/slides_05.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
