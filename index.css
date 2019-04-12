@@ -112,3 +112,34 @@ a:hover {
   /* padding between each item */
   padding: 0 35px;
 }
+
+.slide-title, .slide-description{
+  		-webkit-animation-duration: .6s;
+		animation-duration: .6s;
+		-webkit-animation-fill-mode: both;
+		animation-fill-mode: both;
+		-webkit-animation-name: fadeOutLeft;
+		animation-name: fadeOutLeft;
+}
+
+.slick-current .slide-title, .slick-current .slide-description, .slick-current .nav-arrows
+{
+  		-webkit-animation-delay: .4s;
+		animation-delay: .4s;
+		-webkit-animation-duration: .6s;
+		animation-duration: .6s;
+		-webkit-animation-fill-mode: both;
+		animation-fill-mode: both;
+		-webkit-animation-name: fadeInRight;
+		animation-name: fadeInRight;
+}
+
+.slick-current .slide-description{
+  		-webkit-animation-delay: .8s;
+		animation-delay: .8s;
+}
+
+.slick-current .nav-arrows {
+    		-webkit-animation-delay: 1.2s;
+		animation-delay: 1.2s;
+}
