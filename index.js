@@ -22,10 +22,9 @@ $('.js-slick-slider').each(function() {
    $('.slick-slider').slick('slickGoTo', slideno - 1);
  });
 
-
 $('.js-slick-slider').on('afterChange', function(event, slick, currentSlide, nextSlide){
-    $('li:nth-child('+(currentSlide - 1)+')').removeClass('slide-active');
-  $('ul li:nth-child(' + (currentSlide)+ ')').addClass('slide-active');
+    $('.menu li:nth-child('+(currentSlide - 1)+')').removeClass('slide-active');
+  $('.menu li:nth-child(' + (currentSlide)+ ')').addClass('slide-active');
 });
 
 $('.js-slick-slider').on('afterChange', function(event, slick, currentSlide, nextSlide){
