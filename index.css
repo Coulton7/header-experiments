@@ -12,8 +12,8 @@
   text-shadow: 0 0 3px #ffffff;
 }
 
-.active {
-  background-color: #888c8f;
+.slide-active {
+  background-color: #e5e5e7;
 }
 
 .row-eq-height {
