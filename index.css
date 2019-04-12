@@ -1,0 +1,106 @@
+
+
+.slick-slider{
+  color:white;
+}
+
+  .nav-arrows a{
+    color: #002a5b;
+    text-shadow: 0 0 3px #ffffff;
+}
+
+.active{
+  background-color: #888c8f;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+
+.main-container {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-size: 1.6em !important;
+  line-height: 1.5em;
+  color: #535454;
+}
+/**
+ * Navbar page title
+ */
+.navbar-default .navbar-brand {
+  color: #dd1e25;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #9a151a;
+}
+
+/**
+ * Heading rules
+ */
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.5em;
+}
+
+h1 {
+  font-size: 35.6px;
+  font-weight: normal;
+  font-family: inherit;
+  color: #002A5B;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: normal;
+  font-family: inherit;
+}
+
+h3 {
+  font-size: 19.5px;
+  font-weight: normal;
+  font-family: inherit;
+}
+
+h4 {
+  font-size: 19.5px;
+  font-weight: normal;
+  font-family: inherit;
+}
+
+/**
+ * Hamburger menu
+ */
+
+
+.navbar-nav {
+  margin: 0;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #dd1e25;
+}
+
+/**
+ * Anchor tag rules
+ */
+a {
+  color: #dd1e25;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #9a151a;
+  text-decoration: none;
+}
+
+.slick-initialized .slick-slide {
+  /* padding between each item */
+  padding: 0 35px;
+}
