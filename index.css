@@ -1,4 +1,7 @@
-
+.fullscreen {
+  padding: 0 !important;
+  margin: 0 !important;
+}
 
 .slick-slider{
   color:white;
