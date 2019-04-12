@@ -3,16 +3,16 @@
   margin: 0 !important;
 }
 
-.slick-slider{
-  color:white;
+.slick-slider {
+  color: white;
 }
 
-  .nav-arrows a{
-    color: #002a5b;
-    text-shadow: 0 0 3px #ffffff;
+.nav-arrows a {
+  color: #002a5b;
+  text-shadow: 0 0 3px #ffffff;
 }
 
-.active{
+.active {
   background-color: #888c8f;
 }
 
@@ -22,7 +22,6 @@
   display: -ms-flexbox;
   display: flex;
 }
-
 
 .main-container {
   min-height: 100%;
@@ -34,6 +33,7 @@ body {
   line-height: 1.5em;
   color: #535454;
 }
+
 /**
  * Navbar page title
  */
@@ -80,8 +80,6 @@ h4 {
 /**
  * Hamburger menu
  */
-
-
 .navbar-nav {
   margin: 0;
 }
@@ -113,45 +111,50 @@ a:hover {
   padding: 0 35px;
 }
 
-.slide-title, .slide-description{
-  		-webkit-animation-duration: .6s;
-		animation-duration: .6s;
-		-webkit-animation-fill-mode: both;
-		animation-fill-mode: both;
-		-webkit-animation-name: fadeOutLeft;
-		animation-name: fadeOutLeft;
+.slide-title, .slide-description {
+  -webkit-animation-duration: .6s;
+  animation-duration: .6s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeOutLeft;
+  animation-name: fadeOutLeft;
 }
 
-.slick-current .slide-title, .slick-current .slide-description, .slick-current .nav-arrows
-{
-  		-webkit-animation-delay: .4s;
-		animation-delay: .4s;
-		-webkit-animation-duration: .6s;
-		animation-duration: .6s;
-		-webkit-animation-fill-mode: both;
-		animation-fill-mode: both;
-		-webkit-animation-name: fadeInRight;
-		animation-name: fadeInRight;
+.slick-current .slide-title, .slick-current .slide-description, .slick-current .nav-arrows {
+  -webkit-animation-delay: .4s;
+  animation-delay: .4s;
+  -webkit-animation-duration: .6s;
+  animation-duration: .6s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
 }
 
-.slick-current .slide-description{
-  		-webkit-animation-delay: .8s;
-		animation-delay: .8s;
+.slick-current .slide-description {
+  -webkit-animation-delay: .8s;
+  animation-delay: .8s;
 }
 
 .slick-current .nav-arrows {
-    		-webkit-animation-delay: 1.2s;
-		animation-delay: 1.2s;
+  -webkit-animation-delay: 1.2s;
+  animation-delay: 1.2s;
 }
 
-.slide-1{
-    background-image:url('images/AESGlobal.png');
+.slide-1 {
+  background-color: #002a5b;
+  mix-blend-mode: multiply;
+  background-image: url('images/AESGlobal.png');
 }
 
-.slide-2{
-    background-image:url('images/Modular.png');
+.slide-2 {
+  background-color: #002a5b;
+  mix-blend-mode: multiply;
+  background-image: url('images/Modular.png');
 }
 
-.slide-3, .slide-4, .slide-5{
-  background-image:url('images/Simplicity.png');
+.slide-3, .slide-4, .slide-5 {
+  background-color: #002a5b;
+  mix-blend-mode: multiply;
+  background-image: url('images/Simplicity.png');
 }
