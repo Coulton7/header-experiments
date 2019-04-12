@@ -1,18 +1,18 @@
 (function ($){
 $('.js-slick-slider').each(function() {
   const $this = $(this);
-  
+
   $this.slick({
     slidesToShow: 1,
     slidesToScroll: 1,
-    infinite: true,   // <!-- *
+    infinite: true,
     autoplay: true,
     autoplaySpeed: 7500,
     pauseOnHover: true,
     dots: false,
     arrows: false,
   });
-  $(this).find('.start-slide').removeClass('start-slide'); 
+  $(this).find('.start-slide').removeClass('start-slide');
 });
 })(jQuery);
 
@@ -40,4 +40,3 @@ $('.js-slick-slider').on('afterChange', function(event, slick, currentSlide, nex
   $('ul li:nth-child(' + (currentSlide)+')').addClass('active');
 });
 });
-
