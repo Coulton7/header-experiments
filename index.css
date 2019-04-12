@@ -140,10 +140,7 @@ a:hover {
   animation-name: fadeInRight;
 }
 
-@-webkit-keyframes fadeIn{0%{opacity: 0;}100%{opacity: 1;}}
-@keyframes fadeIn{0%{opacity: 0;}100%{opacity: 1;}}
-
-.slick-current .home-tab-image img{
+.slick-current .home-tab-image{
   -webkit-animation-delay: .8s;
   animation-delay: .8s;
   -webkit-animation-duration: 1.2s;
@@ -193,3 +190,6 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+@-webkit-keyframes fadeIn{0%{opacity: 0;}100%{opacity: 1;}}
+@keyframes fadeIn{0%{opacity: 0;}100%{opacity: 1;}}
