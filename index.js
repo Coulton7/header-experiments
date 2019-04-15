@@ -33,6 +33,16 @@ $('.js-slick-slider').on('afterChange', function(event, slick, currentSlide, nex
   $('.menu li:nth-child(' + (currentSlide)+ ')').addClass('slide-active');
 });
 
+$(".js-slick-slider").on("beforeChange", function() {
+
+   $('.home-image-tab').removeClass('animated fadeInLeft').hide();
+   setTimeout(() => {
+     $('.home-image-tab').addClass('animated fadeInLeft').show();
+
+   }, 1000);
+
+ })
+
 $('.js-slick-slider').on('afterChange', function(event, slick, currentSlide, nextSlide){
   if(currentSlide === 0){
     $('ul li:nth-child(4)').removeClass('slide-active');
