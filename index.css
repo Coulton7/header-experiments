@@ -140,10 +140,6 @@ a:hover {
   animation-name: fadeInRight;
 }
 
-.slick-current .home-tab-image{
-
-}
-
 .slick-current .slide-description {
   -webkit-animation-delay: .8s;
   animation-delay: .8s;
