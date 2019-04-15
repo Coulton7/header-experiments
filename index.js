@@ -22,6 +22,12 @@ $('.js-slick-slider').each(function() {
    $('.slick-slider').slick('slickGoTo', slideno - 1);
  });
 
+ $('.menu').hover('li').hover(function(e){
+   var index = $(this).data();
+   var slideno = $(this).data('slide');
+   $('.slick-slider').slick('slickGoTo', slideno +1);
+ })
+
 $('.js-slick-slider').on('afterChange', function(event, slick, currentSlide, nextSlide){
     $('.menu li:nth-child('+(currentSlide - 1)+')').removeClass('slide-active');
   $('.menu li:nth-child(' + (currentSlide)+ ')').addClass('slide-active');
