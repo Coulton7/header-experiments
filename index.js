@@ -38,16 +38,6 @@ $(".js-slick-slider").on("beforeChange", function(event, slick, currentSlide, ne
 });
 
 
-$(".js-slick-slider").on("afterChange", function(event, slick, currentSlide, nextSlide) {
-
-  $('.home-tab-image').removeClass('animated fadeOutLeft').hide();
-  setTimeout(() => {
-    $('.home-tab-image').addClass('animated fadeOutLeft').show();
-
-  }, 1000);
-
-});
-
 $('.js-slick-slider').on('afterChange', function(event, slick, currentSlide, nextSlide) {
   if (currentSlide === 0) {
     $('ul li:nth-child(4)').removeClass('slide-active');
