@@ -37,8 +37,6 @@ $(".js-slick-slider").on("beforeChange", function(event, slick, currentSlide, ne
 
 });
 
-
-
 $('.js-slick-slider').on('afterChange', function(event, slick, currentSlide, nextSlide) {
   if (currentSlide === 0) {
     $('ul li:nth-child(4)').removeClass('slide-active');
