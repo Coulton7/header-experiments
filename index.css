@@ -141,14 +141,7 @@ a:hover {
 }
 
 .slick-current .home-tab-image{
-  -webkit-animation-delay: 1.8s;
-  animation-delay: 1.8s;
-  -webkit-animation-duration: 1.2s;
-  animation-duration: 1.2s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-animation-name: fadeInRight ease-in 1;
-  animation: fadeInRight ease-in 1;
+
 }
 
 .slick-current .slide-description {
