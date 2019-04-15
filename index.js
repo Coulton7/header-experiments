@@ -33,7 +33,7 @@ $(".js-slick-slider").on("afterChange", function(event, slick, currentSlide, nex
   setTimeout(() => {
     $('.slick-current .home-tab-image').addClass('animated fadeInLeft').show();
 
-  }, 2000);
+  }, 1500);
 
 });
 
