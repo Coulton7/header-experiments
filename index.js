@@ -29,9 +29,9 @@ $('.js-slick-slider').on('afterChange', function(event, slick, currentSlide, nex
 
 $(".js-slick-slider").on("beforeChange", function(event, slick, currentSlide, nextSlide) {
 
-  $('.slick-current .home-tab-image').removeClass('animated fadeInLeft').hide();
+  $('.slick-current .home-tab-image').removeClass('animated fadeInRight').hide();
   setTimeout(() => {
-    $('.slick-current .home-tab-image').addClass('animated fadeInLeft').show();
+    $('.slick-current .home-tab-image').addClass('animated fadeInRight').show();
 
   }, 1500);
 
