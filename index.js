@@ -37,13 +37,6 @@ $(".js-slick-slider").on("beforeChange", function(event, slick, currentSlide, ne
 
 });
 
-$('.menu li:nth-child').on('mouseenter', '.js-slick-slider', function(e) {
-  var $currTarget = $(e.currTarget),
-    index = $currTarget.data('slide'),
-    slickObj = $('.slick-slider').slick('getSlick');
-
-slickObj.slickGoTo(index+1);
-});
 
 
 $('.js-slick-slider').on('afterChange', function(event, slick, currentSlide, nextSlide) {
