@@ -120,6 +120,11 @@ a:hover {
   animation-name: fadeOutLeft;
 }
 
+.animated{
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}
+
 .slick-current .slide-title, .slick-current .slide-description, .slick-current .nav-arrows {
   -webkit-animation-delay: .4s;
   animation-delay: .4s;
