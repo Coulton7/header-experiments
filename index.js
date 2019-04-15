@@ -7,7 +7,7 @@
       slidesToScroll: 1,
       infinite: true,
       autoplay: true,
-      autoplaySpeed: 7500,
+      autoplaySpeed: 8700,
       pauseOnHover: true,
       dots: false,
       arrows: false,
@@ -37,7 +37,7 @@ $(".js-slick-slider").on("beforeChange", function(event, slick, currentSlide, ne
 
 });
 
-$('.menu li').on('mouseenter', '.js-slick-slider', function(e) {
+$('.menu li:nth-child').on('mouseenter', '.js-slick-slider', function(e) {
   var $currTarget = $(e.currTarget),
     index = $currTarget.data('slide'),
     slickObj = $('.slick-slider').slick('getSlick');
