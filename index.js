@@ -22,18 +22,12 @@ $('a[data-slide]').click(function(e) {
   $('.slick-slider').slick('slickGoTo', slideno - 1);
 });
 
-$('.menu').hover('li').hover(function(e) {
-  var index = $(this).data();
-  var slideno = $(this).data('slide');
-  $('.slick-slider').slick('slickGoTo', slideno + 1);
-})
-
 $('.js-slick-slider').on('afterChange', function(event, slick, currentSlide, nextSlide) {
   $('.menu li:nth-child(' + (currentSlide - 1) + ')').removeClass('slide-active');
   $('.menu li:nth-child(' + (currentSlide) + ')').addClass('slide-active');
 });
 
-$(".js-slick-slider").on("beforeChange", function() {
+$(".js-slick-slider").on("beforeChange", function(event, slick, currentSlide, nextSlide) {
 
   $('.home-image-tab').removeClass('animated fadeInLeft').hide();
   setTimeout(() => {
@@ -41,7 +35,7 @@ $(".js-slick-slider").on("beforeChange", function() {
 
   }, 1000);
 
-})
+});
 
 $('.js-slick-slider').on('afterChange', function(event, slick, currentSlide, nextSlide) {
   if (currentSlide === 0) {
