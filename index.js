@@ -37,10 +37,10 @@ $(".js-slick-slider").on("beforeChange", function(event, slick, currentSlide, ne
 
 });
 
-$('.menu li').on('mouseenter', '.js-slick-slider', function(e){
+$('.menu li').on('mouseenter', '.js-slick-slider', function(e) {
   var $currTarget = $(e.currTarget),
-  index = $currTarget.data('slide'),
-  slickObj = $('.slick-slider').slick('slickGoTo', index + 1)
+    index = $currTarget.data('slide'),
+    slickObj = $('.slick-slider').slick('slickGoTo', index + 1);
 });
 
 
