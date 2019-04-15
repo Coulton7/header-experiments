@@ -130,8 +130,8 @@ a:hover {
 }
 
 .slick-current .slide-title, .slick-current .slide-description, .slick-current .nav-arrows {
-  -webkit-animation-delay: .4s;
-  animation-delay: .4s;
+  -webkit-animation-delay: 1.2s;
+  animation-delay: 1.2s;
   -webkit-animation-duration: .6s;
   animation-duration: .6s;
   -webkit-animation-fill-mode: both;
@@ -141,13 +141,13 @@ a:hover {
 }
 
 .slick-current .slide-description {
-  -webkit-animation-delay: .8s;
-  animation-delay: .8s;
+  -webkit-animation-delay: 1.4s;
+  animation-delay: 1.4s;
 }
 
 .slick-current .nav-arrows {
-  -webkit-animation-delay: 1.2s;
-  animation-delay: 1.2s;
+  -webkit-animation-delay: 1.6s;
+  animation-delay: 1.6s;
 }
 
 .slide-1{
