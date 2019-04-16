@@ -54,9 +54,7 @@ $('a.previous').click(function(e) {
 $(".menu li").hover(function(e){
        e.preventDefault();
        var currentSlide = $('.slick-slider').slick('slickCurrentSlide');
-       var target = $('.menu li:nth-child('+ (currentSlide)+ ')');
-       var slideno = $('.slick-slider').data('slide');
-       var finalTarget = (target=slideno);
-       $('js-slick-slider').slick('slickGoTo', finalTarget);
+       var slideno = $('.slick-slider').data('slide')=== $('.menu li:nth-child('+ (currentSlide)+ ')');
+       $('js-slick-slider').slick('slickGoTo', slideno);
      });
    })(jQuery);
