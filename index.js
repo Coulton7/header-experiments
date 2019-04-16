@@ -51,7 +51,7 @@ $('a.previous').click(function(e) {
   });
 });
 
-$(".menu ul li:nth-child").click(function(e){
+$(".menu ul li").hover(function(e){
        e.preventDefault();
        var slideno = $(this).data('slide');
        $( '.slick-slider' ).slick('slickGoTo', slideno);
