@@ -53,8 +53,8 @@ $('a.previous').click(function(e) {
 
 $(".menu li").hover(function(e){
        e.preventDefault();
-       var menuItem = $(this).index('.menu li');
-       var slideno = $('menu li nth:child('+ menuItem + ')').eq('slide');
+       var currentSlide = $('.slick-slider').slick('slickCurrentSlide');
+	     var slideno = $('menu li nth:child('+ currentSlide + ')').eq('slide');
        console.log(slideno)
        $('.slick-slider').slick('slickGoTo', slideno + 1);
      });
