@@ -51,3 +51,10 @@ $('a.previous').click(function(e) {
     $('ul li:nth-child(' + (currentSlide) + ')').addClass('slide-active');
   });
 });
+
+$(".menu li").click(function(e){
+       e.preventDefault();
+       var slideno = $(this).data('slide');
+       $( '.slick-slider' ).slickGoTo(slideno + 1);
+       }
+   });
