@@ -8,7 +8,7 @@
         slidesToScroll: 1,
         infinite: true,
         autoplay: true,
-        autoplaySpeed: 7500,
+        autoplaySpeed: 7000,
         pauseOnHover: true,
         dots: false,
         arrows: false,
@@ -31,9 +31,9 @@ $('.js-slick-slider').on('afterChange', function(event, slick, currentSlide, nex
 
 $(".js-slick-slider").on("beforeChange", function(event, slick, currentSlide, nextSlide) {
 
-  $('.slick-current .home-tab-image').removeClass('animated fadeInRight').hide();
+  $('.slick-current .home-tab-image').removeClass('animated fadeIn').hide();
   setTimeout(() => {
-    $('.slick-current .home-tab-image').addClass('animated fadeInRight').show();
+    $('.slick-current .home-tab-image').addClass('animated fadeIn').show();
 
   }, 1000);
 
