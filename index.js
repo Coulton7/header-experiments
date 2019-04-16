@@ -51,9 +51,5 @@ $('a.previous').click(function(e) {
   });
 });
 
-$(".menu li").hover(function(e){
-       e.preventDefault();
-       var slideno = $(this).data('slide');
-       $( '.slick-slider' ).slick('slickGoTo', slideno);
-     });
+
    })(jQuery);
