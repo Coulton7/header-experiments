@@ -1,18 +1,20 @@
 (function($) {
-  $('.js-slick-slider').each(function() {
-    const $this = $(this);
+  $(document).ready(function() {
+    $('.js-slick-slider').each(function() {
+      const $this = $(this);
 
-    $this.slick({
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      infinite: true,
-      autoplay: true,
-      autoplaySpeed: 8700,
-      pauseOnHover: true,
-      dots: false,
-      arrows: false,
+      $this.slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 7500,
+        pauseOnHover: true,
+        dots: false,
+        arrows: false,
+      });
+      $(this).find('.start-slide').removeClass('start-slide');
     });
-    $(this).find('.start-slide').removeClass('start-slide');
   });
 })(jQuery);
 
