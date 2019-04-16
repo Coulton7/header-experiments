@@ -53,8 +53,8 @@ $('a.previous').click(function(e) {
 
 $(".menu li").hover(function(e){
        e.preventDefault();
-       var menuItem = $(this).data('.menu li');
-       var slideno = $('.slick-slider').data('slide')=== $('.menu li:nth-child('+ (menuItem)+ ')');
-       $('slick-slider').slick('slickGoTo', slideno);
+       var currentSlide = $('.slick-slider').slick('slickCurrentSlide');
+       var slideno = $('.slick-slider').data('slide')=== $('.menu li:nth-child('+ (currentSlide)+ ')');
+       $('.slick-slider').slick('slickGoTo', slideno);
      });
    })(jQuery);
