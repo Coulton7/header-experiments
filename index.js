@@ -8,7 +8,7 @@
         slidesToScroll: 1,
         infinite: true,
         autoplay: true,
-        autoplaySpeed: 7000,
+        autoplaySpeed: 6000,
         pauseOnHover: true,
         dots: false,
         arrows: false,
