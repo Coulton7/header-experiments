@@ -54,7 +54,7 @@ $('a.previous').click(function(e) {
 $(".menu li").hover(function(e){
        e.preventDefault();
        var menuItem = $(this).index('.menu li');
-       var slideno = $(this).data(menuItem);
+       var slideno = $(this).data('menu li nth:child('+ menuItem + ')');
        $('.slick-slider').slick('slickGoTo', slideno + 1);
      });
    })(jQuery);
