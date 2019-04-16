@@ -55,6 +55,5 @@ $(".menu li").click(function(e){
        e.preventDefault();
        var slideno = $(this).data('slide');
        $( '.slick-slider' ).slickGoTo(slideno + 1);
-     })
-   });
+     });
    })(jQuery);
