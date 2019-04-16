@@ -16,7 +16,6 @@
       $(this).find('.start-slide').removeClass('start-slide');
     });
   });
-})(jQuery);
 
 $('a[data-slide]').click(function(e) {
   e.preventDefault();
@@ -56,5 +55,6 @@ $(".menu li").click(function(e){
        e.preventDefault();
        var slideno = $(this).data('slide');
        $( '.slick-slider' ).slickGoTo(slideno + 1);
-       }
+     })
    });
+   })(jQuery);
