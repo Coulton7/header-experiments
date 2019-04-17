@@ -29,7 +29,7 @@ $('.js-slick-slider').on('beforeChange', function(event, slick, currentSlide, ne
 });
 
 $('.js-slick-slider').on('afterChange', function(event, slick, currentSlide, nextSlide) {
-  if (currentSlide===0){
+  if (currentSlide === 0){
   $('menu li a.slide-active').removeClass('slide-active');
   };
 });
