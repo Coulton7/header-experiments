@@ -53,7 +53,7 @@ $('a.previous').click(function(e) {
 
 $(".menu li").hover(function(e){
        e.preventDefault();
-       var menuItem = $(this).index() + 1;
+       var menuItem = $('.menu li').index();
        var slideFigure = $('.menu li nth:child('+ menuItem + ')');
        var slideno = $(menuItem).eq('slide');
        console.log(slideno)
