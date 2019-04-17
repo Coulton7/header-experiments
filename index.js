@@ -26,6 +26,8 @@ $('a[data-slide]').click(function(e) {
 $('.js-slick-slider').on('afterChange', function(event, slick, currentSlide, nextSlide) {
   if(currentSlide){
     $('.menu li:nth-child(' + (currentSlide) + ')').addClass('slide-active');
+  }else{
+    $('.menu li:nth-child').removeClass('slide-active');
   }
 });
 
