@@ -38,18 +38,6 @@ $(".js-slick-slider").on("beforeChange", function(event, slick, currentSlide, ne
 
 });
 
-$('.js-slick-slider').on('afterChange', function(event, slick, currentSlide, nextSlide) {
-  if (currentSlide === 0) {
-    $('ul li:nth-child(4)').removeClass('slide-active');
-  }
-});
-
-$('a.previous').click(function(e) {
-  $('.js-slick-slider').on('afterChange', function(event, slick, currentSlide, nextSlide) {
-    $('li:nth-child(' + (currentSlide + 1) + ')').removeClass('slide-active');
-    $('ul li:nth-child(' + (currentSlide) + ')').addClass('slide-active');
-  });
-});
 
 $(".menu li").hover(function(e){
   var $this = $(this);
