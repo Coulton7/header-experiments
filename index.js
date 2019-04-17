@@ -53,7 +53,7 @@ $('a.previous').click(function(e) {
 
 $(".menu li").hover(function(e){
   var $this = $(this);
-  if($this.index() === 0|| $this.is(':nth-child(1)')|| $this.is(':nth-child(2)')|| $this.is(':nth-child(3)')){
+  if($this.index() === 0|| $this.is(':nth-child(1)')|| $this.is(':nth-child(2)')|| $this.is(':nth-child(3)')|| $this.is(':nth-child(4)')){
        e.preventDefault();
        var menuItem = $('li').index(this);
        $('.slick-slider').slick('slickGoTo', menuItem + 1);
