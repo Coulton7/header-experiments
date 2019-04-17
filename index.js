@@ -54,7 +54,7 @@ $('a.previous').click(function(e) {
 $(".menu li").hover(function(e){
        e.preventDefault();
        var menuItem = $(this).index() + 1;
-       var slideFigure = $(menu li nth:child('+ menuItem + '));
+       var slideFigure = $('menu li nth:child('+ menuItem + ')');
        var slideno = $(slideFigure).eq('slide');
        console.log(slideno)
        $('.slick-slider').slick('slickGoTo', slideno + 1);
