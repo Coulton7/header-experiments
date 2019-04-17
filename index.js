@@ -24,11 +24,8 @@ $('a[data-slide]').click(function(e) {
 });
 
 $('.js-slick-slider').on('afterChange', function(event, slick, currentSlide, nextSlide) {
-  if(currentSlide){
-    $('.menu li:nth-child(' + (currentSlide) + ')').addClass('slide-active');
-  }else{
-    $('.menu li:nth-child(1), .menu li:nth-child(2), .menu li:nth-child(3), .menu li:nth-child(4)').removeClass('slide-active');
-  }
+  $('.menu li:nth-child(' + (currentSlide - 1) + ')').removeClass('slide-active');
+  $('.menu li:nth-child(' + (currentSlide) + ')').addClass('slide-active');
 });
 
 $(".js-slick-slider").on("beforeChange", function(event, slick, currentSlide, nextSlide) {
