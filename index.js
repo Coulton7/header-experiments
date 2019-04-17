@@ -23,10 +23,15 @@ $('a[data-slide]').click(function(e) {
   $('.slick-slider').slick('slickGoTo', slideno - 1);
 });
 
+$('.js-slick-slider').on('beforeChange', function(event, slick, currentSlide, nextSlide) {
+  $('.menu li a.slide-active').removeClass('slide-active');
+  $('.menu li a').eq(nextSlide - 1).addClass('slide-active');
+});
+
 $('.js-slick-slider').on('afterChange', function(event, slick, currentSlide, nextSlide) {
   if ('.js-slick-slider slide-1'){
   $('menu li a.slide-active').removeClass('slide-active');
-  };
+  });
 });
 
 $(".js-slick-slider").on("beforeChange", function(event, slick, currentSlide, nextSlide) {
