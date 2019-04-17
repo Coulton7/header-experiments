@@ -27,7 +27,7 @@ $('.js-slick-slider').on('afterChange', function(event, slick, currentSlide, nex
   if(currentSlide){
     $('.menu li:nth-child(' + (currentSlide) + ')').addClass('slide-active');
   }else{
-    $('.menu li:nth-child').removeClass('slide-active');
+    $('.menu li:nth-child(1), .menu li:nth-child(2), .menu li:nth-child(3), .menu li:nth-child(4)').removeClass('slide-active');
   }
 });
 
