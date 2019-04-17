@@ -28,6 +28,10 @@ $('.js-slick-slider').on('beforeChange', function(event, slick, currentSlide, ne
   $('.menu li a').eq(nextSlide - 1).addClass('slide-active');
 });
 
+if($('.js-slick-slider slide-1'){
+  $('menu li a.slide-active').removeClass('slide-active');
+});
+
 $(".js-slick-slider").on("beforeChange", function(event, slick, currentSlide, nextSlide) {
 
   $('.slick-current .home-tab-image').removeClass('animated fadeIn').hide();
