@@ -53,10 +53,10 @@ $('a.previous').click(function(e) {
 
 $(".menu li").hover(function(e){
        e.preventDefault();
-       var menuItem = $(this).index();
+       var menuItem = $(this).index('leaf');
        var slideFigure = $('.menu li :eq('+ menuItem + ')').html();
-       var slideno = $(slideFigure).eq('slide');
-       console.log(slideFigure)
+       var slideno = $(menuItem).eq('slide');
+       console.log(slideno)
        $('.slick-slider').slick('slickGoTo', slideno + 1);
      });
    })(jQuery);
