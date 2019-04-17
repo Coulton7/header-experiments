@@ -24,8 +24,8 @@ $('a[data-slide]').click(function(e) {
 });
 
 $('.js-slick-slider').on('afterChange', function(event, slick, currentSlide, nextSlide) {
-  $('.menu li:nth-child(' + (currentSlide - 1) + ')').removeClass('slide-active');
-  $('.menu li:nth-child(' + (currentSlide) + ')').addClass('slide-active');
+  $('.menu li a.slide-active').removeClass('slide-active');
+  $('.menu li a').eq(nextSlide).addClass('slide-active');
 });
 
 $(".js-slick-slider").on("beforeChange", function(event, slick, currentSlide, nextSlide) {
