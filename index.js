@@ -23,7 +23,7 @@ $('a[data-slide]').click(function(e) {
   $('.slick-slider').slick('slickGoTo', slideno - 1);
 });
 
-$('.js-slick-slider').on('afterChange', function(event, slick, currentSlide, nextSlide) || $('a.previous').click(function(e) {
+($('.js-slick-slider').on('afterChange', function(event, slick, currentSlide, nextSlide) || $('a.previous').click(function(e)) {
   $('.menu li:nth-child(' + (currentSlide - 1) + ')').removeClass('slide-active');
   $('.menu li:nth-child(' + (currentSlide) + ')').addClass('slide-active');
 });
