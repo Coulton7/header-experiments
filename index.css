@@ -12,6 +12,11 @@
   text-shadow: 0 0 3px #ffffff;
 }
 
+.nav-arrows{
+  position: relative;
+  bottom: 0;
+}
+
 .slide-active {
   background-color: #e5e5e7;
 }
@@ -122,7 +127,6 @@ a:hover {
 
 .home-tab-image{
   opacity: 0;
-  overflow: visible;
 }
 
 .animated{
