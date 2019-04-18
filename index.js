@@ -12,6 +12,7 @@
         pauseOnHover: true,
         dots: false,
         arrows: false,
+        cssEase: 'linear',
       });
       $(this).find('.start-slide').removeClass('start-slide');
     });
