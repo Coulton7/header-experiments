@@ -205,7 +205,6 @@ a:hover {
   outline-width: 1px;
   text-shadow: none;
   margin-left: 1em;
-  box-shadow: 0 0 3px 3px #ffffff;
 }
 
 .slider-button a:hover {
@@ -217,7 +216,6 @@ a:hover {
   outline-style: solid;
   outline-color: #ffffff;
   outline-width: 1px;
-    box-shadow: 0 0 3px 3px #ffffff;
 }
 
 
