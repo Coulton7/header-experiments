@@ -188,6 +188,33 @@ a:hover {
   background-size: cover;
 }
 
+.slider-button a {
+  list-style-type: none;
+  padding: 0.95em 3.2em;
+  display: inline-block;
+  background: #002A5B;
+  color: #ffffff;
+  border-bottom: none;
+  width: 100%;
+  line-height: 1.2em;
+  outline-offset: 1px;
+  outline-style: solid;
+  outline-color: #5B82AD;
+  outline-width: 1px;
+}
+
+.slider-button a:hover {
+  background: #004a8c;
+  margin-bottom: 0;
+  color: #ffffff;
+  width: 100%;
+  outline-offset: 1px;
+  outline-style: solid;
+  outline-color: #ffffff;
+  outline-width: 1px;
+}
+
+
 @media screen and (max-width: 767px) {
 
   h2 {
