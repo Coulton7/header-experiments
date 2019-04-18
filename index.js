@@ -12,8 +12,7 @@
         pauseOnHover: true,
         dots: false,
         arrows: false,
-        cssEase: 'ease-out',
-        useTransform: true,
+        cssEase:"cubic-bezier(0.87, 0.03, 0.41, 0.9)"
       });
       $(this).find('.start-slide').removeClass('start-slide');
     });
