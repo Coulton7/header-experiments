@@ -199,10 +199,8 @@ a:hover {
   border-bottom: none;
   width: 100%;
   line-height: 1.2em;
-  outline-offset: 1px;
-  outline-style: solid;
-  outline-color: #5B82AD;
-  outline-width: 1px;
+  border: 1px solid #ffffff;
+  border-radius: 5%;
   text-shadow: none;
   margin-left: 1em;
 }
@@ -212,10 +210,8 @@ a:hover {
   margin-bottom: 0;
   color: #ffffff;
   width: 100%;
-  outline-offset: 1px;
-  outline-style: solid;
-  outline-color: #ffffff;
-  outline-width: 1px;
+  border: 1px solid #ffffff;
+  border-radius: 5%;
 }
 
 
