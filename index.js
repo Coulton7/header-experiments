@@ -36,6 +36,10 @@ $('.js-slick-slider').on('beforeChange', function(event, slick, currentSlide, ne
   }
 });
 
+$('.js-slik-slider').on('setPosition', function (event, slick) {
+	slick.$slides.css('height', slick.$slideTrack.height() + 'px');
+});
+
 $(".js-slick-slider").on("beforeChange", function(event, slick, currentSlide, nextSlide) {
 
   $('.slick-current .home-tab-image').removeClass('animated fadeIn').hide();
