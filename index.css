@@ -122,8 +122,7 @@ a:hover {
 }
 
 .slick-initialized .slick-slide {
-  /* padding between each item */
-  padding: 0 35px;
+  padding: 4em 3em 0;
 }
 
 .slide-title, .slide-description {
