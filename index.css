@@ -180,5 +180,127 @@ a:hover {
   background-size: cover;
 }
 
+@media screen and (max-width: 767px) {
+
+  h2 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+
+  h3 {
+    font-size: 19px;
+    line-height: 30px;
+  }
+
+  h4 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  body {
+    font-size: 12px;
+    line-height: 19px;
+  }
+
+  .btn {
+    font-size: 12px;
+    line-height: 19px;
+  }
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+
+  h2 {
+    font-size: 27px;
+    line-height: 44px;
+  }
+
+  h3 {
+    font-size: 21px;
+    line-height: 34px;
+  }
+
+  h4 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  body {
+    font-size: 14px;
+    line-height: 23px;
+  }
+
+  .btn {
+    font-size: 14px;
+    line-height: 23px;
+  }
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+
+  h2 {
+    font-size: 29px;
+    line-height: 47px;
+  }
+
+  h3 {
+    font-size: 22px;
+    line-height: 37px;
+  }
+
+  h4 {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  body {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .btn {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+
+  h2 {
+    font-size: 31px;
+    line-height: 50px;
+  }
+
+  h3 {
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  h4 {
+    font-size: 22px;
+    line-height: 36px;
+  }
+
+  .lead {
+    font-size: 22px;
+    line-height: 36px;
+  }
+
+  body {
+    font-size: 18px;
+    line-height: 29px;
+  }
+
+  .btn {
+    font-size: 18px;
+    line-height: 29px;
+  }
+
+}
+
+
 @-webkit-keyframes fadeIn{0%{opacity: 0;}100%{opacity: 1;}}
 @keyframes fadeIn{0%{opacity: 0;}100%{opacity: 1;}}
