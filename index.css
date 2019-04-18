@@ -10,11 +10,13 @@
 .nav-arrows a {
   color: #002a5b;
   text-shadow: 0 0 3px #ffffff;
+  padding-right: 1em;
 }
 
 .nav-arrows{
   position: relative;
   bottom: 0;
+  display: flex;
 }
 
 .slide-active {
@@ -190,7 +192,7 @@ a:hover {
 
 .slider-button a {
   list-style-type: none;
-  padding: 0.95em 3.2em;
+  padding: 0.55em 1.2em;
   display: inline-block;
   background: #002A5B;
   color: #ffffff;
@@ -201,6 +203,7 @@ a:hover {
   outline-style: solid;
   outline-color: #5B82AD;
   outline-width: 1px;
+  text-shadow: none;
 }
 
 .slider-button a:hover {
