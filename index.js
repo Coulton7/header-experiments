@@ -13,6 +13,7 @@
         dots: false,
         arrows: false,
         cssEase: 'ease-out',
+        useTransform: true,
       });
       $(this).find('.start-slide').removeClass('start-slide');
     });
