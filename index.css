@@ -200,7 +200,7 @@ a:hover {
   width: 100%;
   line-height: 1.2em;
   border: 1px solid #ffffff;
-  border-radius: 10%;
+  border-radius: 10px;
   text-shadow: none;
   margin-left: 1em;
 }
@@ -211,7 +211,7 @@ a:hover {
   color: #ffffff;
   width: 100%;
   border: 1px solid #ffffff;
-  border-radius: 10%;
+  border-radius: 10px;
 }
 
 
