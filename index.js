@@ -9,6 +9,7 @@
         infinite: true,
         autoplay: true,
         autoplaySpeed: 6000,
+        transition: 750,
         lazyLoad:"progressive",
         pauseOnHover: true,
         dots: false,
