@@ -28,8 +28,8 @@ $('.js-slick-slider').on('beforeChange', function(event, slick, currentSlide, ne
   $('.menu li a').eq(nextSlide - 1).addClass('slide-active');
 });
 
-if ($('.menu li.last a.slide-active').hasClass('slide-active')){
-  $('.menu li.last a.slide-active').removeClass('slide-active');
+if ($('.menu li.last.leaf a.slide-active').hasClass('slide-active')){
+  $('.menu li.last.leaf a.slide-active').removeClass('slide-active');
 }
 
 $(".js-slick-slider").on("beforeChange", function(event, slick, currentSlide, nextSlide) {
