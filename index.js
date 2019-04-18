@@ -28,7 +28,7 @@ $('.js-slick-slider').on('beforeChange', function(event, slick, currentSlide, ne
   $('.menu li a').eq(nextSlide - 1).addClass('slide-active');
 });
 
-if ($('.menu li.last a)').hasClass('.slide-active')){
+if ($('.menu li.last a').hasClass('.slide-active')){
   $('.menu li a.slide-active').removeClass('slide-active');
 }
 
