@@ -10,11 +10,9 @@
         autoplay: true,
         autoplaySpeed: 6000,
         transition: 750,
-        lazyLoad:"progressive",
         pauseOnHover: true,
         dots: false,
         arrows: false,
-        easing: 'linear',
         cssEase:"cubic-bezier(0.87, 0.03, 0.41, 0.9)"
       });
       $(this).find('.start-slide').removeClass('start-slide');
