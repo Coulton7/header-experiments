@@ -129,7 +129,7 @@ a:hover {
   animation-duration: .6s;
 }
 
-.slick-current .slide-title, .slick-current .slide-description,{
+.slick-current .slide-title, .slick-current .slide-description{
   -webkit-animation-delay: 1.2s;
   animation-delay: 1.2s;
   -webkit-animation-duration: .6s;
