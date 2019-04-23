@@ -196,7 +196,7 @@ a.slider-button {
   background: #002A5B;
   color: #ffffff;
   border-bottom: none;
-  width: 100%;
+  width: auto;
   line-height: 1.2em;
   border: 1px solid #ffffff;
   border-radius: 10px;
@@ -208,7 +208,7 @@ a.slider-button:hover {
   background: #004a8c;
   margin-bottom: 0;
   color: #ffffff;
-  width: 100%;
+  width: auto;
   border: 1px solid #ffffff;
   border-radius: 10px;
 }
