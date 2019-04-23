@@ -19,10 +19,9 @@
     });
   });
 
-  $(window).on('resize', function({
+  $(window).on('resize', function(){
     $('.slick-slider').slick('resize');
-  })
-);
+  });
 
 $('a[data-slide]').click(function(e) {
   e.preventDefault();
