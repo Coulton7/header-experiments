@@ -214,7 +214,7 @@ a.slider-button:hover {
 }
 
 
-.iceberg-cta-upper{
+.slider-icberg{
   padding-top: 4em;
 }
 
@@ -243,6 +243,13 @@ a.slider-button:hover {
   .btn {
     font-size: 12px;
     line-height: 19px;
+  }
+  .slider-iceberg{
+    padding-top: 0;
+  }
+  .nav-arrows
+  {
+    display: block;
   }
 }
 
