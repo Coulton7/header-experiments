@@ -19,6 +19,11 @@
     });
   });
 
+  $(window).on('resize', function({
+    $('.js-slick-slider').slick('resize');
+  })
+);
+
 $('a[data-slide]').click(function(e) {
   e.preventDefault();
   var slideno = $(this).data('slide');
