@@ -20,7 +20,7 @@
   });
 
   $(window).on('resize', function({
-    $('.js-slick-slider').slick('resize');
+    $('.slick-slider').slick('resize');
   })
 );
 
