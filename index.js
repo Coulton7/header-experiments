@@ -50,7 +50,7 @@ $(".js-slick-slider").on("beforeChange", function(event, slick, currentSlide, ne
 
 });
 
-$(".menu li").hover(function(e){
+$(".menu li").mouseover(function(e){
   var $this = $(this);
   if($this.index() === 0|| $this.is(':nth-child(1)')|| $this.is(':nth-child(2)')|| $this.is(':nth-child(3)')|| $this.is(':nth-child(4)')){
        e.preventDefault();
