@@ -3,6 +3,10 @@
   margin: 0 !important;
 }
 
+.row{
+  margin: 0 auto;
+}
+
 .slick-slider {
   color: white;
 }
