@@ -325,6 +325,9 @@ a.slider-button:hover {
     font-size: 16px;
     line-height: 26px;
   }
+  .slider-iceberg{
+    padding-top: 4em;
+  }
 }
 
 /* lg */
