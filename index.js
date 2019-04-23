@@ -14,6 +14,12 @@
         dots: false,
         arrows: false,
         mobileFirst: true,
+        responsive: [
+            {
+                breakpoint: 769,
+                settings: 'unslick'
+            }
+        ]
       });
       $(this).find('.start-slide').removeClass('start-slide');
     });
