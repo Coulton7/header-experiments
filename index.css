@@ -189,7 +189,7 @@ a:hover {
   background-size: cover;
 }
 
-.slider-button {
+a.slider-button {
   list-style-type: none;
   padding: 0.55em 1.2em;
   display: inline-block;
@@ -204,7 +204,7 @@ a:hover {
   margin-left: 1em;
 }
 
-.slider-button:hover {
+a.slider-button:hover {
   background: #004a8c;
   margin-bottom: 0;
   color: #ffffff;
