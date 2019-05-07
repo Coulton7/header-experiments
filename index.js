@@ -40,7 +40,7 @@ $('.js-slick-slider').on('beforeChange', function(event, slick, currentSlide, ne
   }
 });
 
-$('.js-slik-slider').on('setPosition', function (event, slick) {
+$('.js-slick-slider').on('setPosition', function (event, slick) {
 	slick.$slides.css('height', slick.$slideTrack.height() + 'px');
 });
 
